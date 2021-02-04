@@ -4,7 +4,10 @@ services:
   go_webassembly_calculator:
     container_name: go_webassembly_calculator
     build: .
+    ports:
+      - 8080:8080
     volumes:
       - .:/app
+    command: go run server.go go
     stdin_open: true
     tty: true
