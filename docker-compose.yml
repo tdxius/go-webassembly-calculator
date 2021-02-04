@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  go_webassembly_calculator:
+    container_name: go_webassembly_calculator
+    build: .
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
