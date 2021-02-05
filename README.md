@@ -6,6 +6,7 @@ A calculator built with Go WebAssembly.
 
 ``` bash
 git clone git@github.com:tdxius/go-webassembly-calculator.git
+cd go-webassembly-calculator
 
 # start web server
 make run
